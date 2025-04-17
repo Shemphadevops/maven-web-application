@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.91.243.194:8081/repository/tesla-be-releases/</url>
+	      <url>http://54.89.159.25:8081/repository/tesla-be-releases1/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.91.243.194:8081/repository/tesla-be-snapshopts/</url>
+	      <url>http://54.89.159.25:8081/repository/tesla-snapshots1/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
