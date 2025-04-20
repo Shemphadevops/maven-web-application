@@ -12,7 +12,7 @@
 <h1 align="center">Welcome to Landmark Technologies.</h1>
 <h2 align="center"> We are supporting the Ebay Black Friday international Project.
 	Shemphad Global Technologies is a software development company. 
-	Class40 will run from July 12, 2025.
+	Class 40 devops will run from July 12, 2025.
 	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
 <div style="text-align: center;">
