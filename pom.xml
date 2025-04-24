@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>engineer</finalName>
+		<finalName>kayode</finalName>
 		
 		<plugins>
 			<plugin>
