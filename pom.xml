@@ -102,7 +102,7 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Shemphad Global Concept Releases Snapshot Nexus Repository </name>
+	      <name>Shemphad Global Concept Snapshot Nexus Repository </name>
 	      <url>http://52.207.147.22:8081/repository/shemphad-snapshots/</url>
 	    </snapshotRepository>
 	    
