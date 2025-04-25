@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Shemphad Global Concept Releases Snapshot Nexus Repository </name>
-	      <url>http://52.207.147.22:8081/repository/mtn-snapshots//</url>
+	      <url>http://52.207.147.22:8081/repository/mtn-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
