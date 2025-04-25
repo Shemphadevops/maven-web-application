@@ -92,18 +92,18 @@
 		</dependency>
 		
 	</dependencies>
-	
+		
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Shemphad Global Concept Releases Nexus Repository</name>
-	      <url>http://52.207.147.22:8081/repository/mtn-releases/</url>
+	      <url>http://52.207.147.22:8081/repository/shemphad-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Shemphad Global Concept Releases Snapshot Nexus Repository </name>
-	      <url>http://52.207.147.22:8081/repository/mtn-snapshots/</url>
+	      <url>http://52.207.147.22:8081/repository/shemphad-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
