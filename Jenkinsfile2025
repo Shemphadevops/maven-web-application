@@ -1,0 +1,34 @@
+node{
+    def mavenHome = tool name: 'maven399'
+	stage('1clone'){
+		git "https://github.com/Shemphadevops/maven-web-application"
+	}
+	stage('2Test+build'){
+	    sh "${mavenHome}/bin/mvn clean package"   //linux OS
+		//bat "mvn clean package"  //windows OS
+	}
+	stage('3codeQualityAnalysis'){
+	    sh "${mavenHome}/bin/mvn sonar:sonar"
+	}
+	stage('4uploads2Nexus'){
+	   //sh "${mavenHome}/bin/mvn deploy"
+	}
+	stage('5deploy2UAT'){
+	    //deploy to container
+	    deploy adapters: [tomcat9(credentialsId: 'TomcatAccess', path: '', url: 'http://18.212.182.21:8081/')], contextPath: null, war: 'target/*war'
+	}
+	
+	stage('6ManualApproval'){
+	    sh "echo 'please review and approve' "
+		timeout(time:5, unit:'HOURS')
+		{
+		 input message: 'Application ready for deployment, Please review and approve'
+ 	   }
+	}
+	stage('7deploy2prod'){
+	    //deploy to container
+	    deploy adapters: [tomcat9(credentialsId: 'TomcatAccess', path: '', url: 'http://18.212.182.21:8081/')], contextPath: null, war: 'target/*war'
+	}
+	stage('8notification'){
+emailext body: 'Hi Team', recipientProviders: [developers(), culprits()], subject: 'deployment to production', to: 'shemphadglobalconcept@gmail.com'	} 
+}
