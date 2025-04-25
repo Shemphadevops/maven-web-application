@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
+		<name>Shemphad Global Concept</name>
+		<url>http://shemphadglobalconcept.co.site/</url>
 	</organization>
 
 	<properties>
@@ -96,13 +96,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>Shemphad Global Concept Releases Nexus Repository</name>
 	      <url>http://52.207.147.22:8081/repository/mtn-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name>Shemphad Global Concept Releases Snapshot Nexus Repository </name>
 	      <url>http://52.207.147.22:8081/repository/mtn-snapshots//</url>
 	    </snapshotRepository>
 	    
